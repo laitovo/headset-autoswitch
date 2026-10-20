@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <AssemblyName>HeadsetAutoSwitch</AssemblyName>
+    <RootNamespace>HeadphoneAutoSwitch</RootNamespace>
+    <Product>Headset AutoSwitch</Product>
+    <Title>Headset AutoSwitch</Title>
+    <Description>Automatically switch audio between your wireless headset and speakers.</Description>
+    <ApplicationIcon>Assets/headset.ico</ApplicationIcon>
+    <Version>0.3.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="tests/**/*.cs" />
+    <EmbeddedResource Include="Assets/headset.ico" LogicalName="HeadsetAutoSwitch.App.ico" />
+  </ItemGroup>
+</Project>
