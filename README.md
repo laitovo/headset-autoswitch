@@ -15,7 +15,7 @@ For the first run, turn on the headset, select both audio outputs and enable aut
 
 ## Build 
 
-Windows + .NET SDK 10. No external NuGet packages / внешние NuGet-пакеты не нужны.
+Windows + .NET SDK 10. No external NuGet packages
 
 ```powershell
 .\build.ps1 -RunTests
@@ -23,10 +23,10 @@ Windows + .NET SDK 10. No external NuGet packages / внешние NuGet-пак�
 ```
 
 The published app needs .NET Desktop Runtime 10. Keep the entire `dist` folder together.
-Для запуска нужен .NET Desktop Runtime 10; переносите всю папку `dist`, а не отдельный EXE.
+
 
 Settings and logs stay in `data/` next to the EXE. Build output, local settings and diagnostics are excluded from this repository.
-Настройки и логи хранятся в `data/` рядом с EXE. Сборки, локальные настройки и диагностика в репозиторий не включены.
+
 
 ## License
 
